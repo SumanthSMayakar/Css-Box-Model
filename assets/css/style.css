@@ -1,0 +1,74 @@
+.common{
+    background-color: darkgray;
+    padding: 20px;
+    margin: 30px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+/* CSS Padding  */
+
+.csspadding>h1{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+}
+.csspadding>h1:nth-child(1){
+    padding: 50px; /*  apply for all sides  */
+}
+
+.csspadding>h1:nth-child(2){
+    padding: 25px 75px; /*  apply for vertical and horizontal sides  */
+}
+
+.csspadding>h1:nth-child(3){
+    padding: 25px 50px 75px; /*  apply for vertical and horizontal sides  */
+}
+
+.csspadding>h1:nth-child(4){
+    padding: 25px 50px 75px 90px; /*  apply for vertical top horizontal right sides  */
+}
+
+/* CSS Border  */
+.cssBorder{
+    padding:20px;
+    border: 10px;
+    border-color: red pink green brown;
+    border-style: solid;
+
+}
+
+/* CSS Margin */
+
+.cssMargin>h1{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+}
+.cssMargin>h1:nth-child(1){
+    margin: 50px; /*  apply for all sides  */
+}
+
+.cssMargin>h1:nth-child(2){
+    margin: 25px 75px; /*  apply for vertical and horizontal sides  */
+}
+
+.cssMargin>h1:nth-child(3){
+    margin: 25px 50px 75px; /*  apply for vertical and horizontal sides  */
+}
+
+.cssMargin>h1:nth-child(4){
+    margin: 25px 50px 75px 90px; /*  apply for vertical top horizontal right sides  */
+}
+
+/* CSS BoxModel */
+.cssBoxModel{
+    background-color: red;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+    color: blue;
+}
+
